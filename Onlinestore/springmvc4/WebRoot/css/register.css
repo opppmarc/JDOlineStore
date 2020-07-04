@@ -1,0 +1,52 @@
+.tit{
+	margin-left:10% ;
+}
+.head{
+	margin-left: 70%;
+	color: #A9A9A9;
+	
+}
+.main{
+	position: absolute;
+	border: 1px solid darkgrey;
+	margin-left: 10%;
+	width: 80%;
+}
+.main>form{
+	margin-left: 10%;
+}
+input{
+	height: 30px;
+	width: 200px;
+}
+table{
+	text-align:left;
+	z-index: 9999;
+}	
+td{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}	
+.lg{
+	margin-top: 4%;
+	margin-left:60%;
+}
+.register{
+	margin-left:1%;
+}
+.span{
+	color: #CCCCCC;
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	background-color: #FFFFFF
+}
+.errSpan{
+	color: red;
+	border: 1px solid #CCCCCC;
+	height: 30px;
+	background-color: #FFFFFF
+}
+a{
+	color: red;
+	text-decoration-line:none ;
+}

@@ -1,0 +1,57 @@
+.bg{
+	position: absolute;
+}
+a{
+	text-decoration: none;
+}
+.lgborder{
+	padding-top: 20px;
+	font-family: "ÐÂËÎÌå";
+	position: absolute;
+	margin-top:3% ;
+	margin-left: 60%;
+	text-align: center;
+	width: 350px;
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+}
+.lgborder>a{
+	font-size: 20px;
+	margin: 40px;
+	margin-top:10%;
+	margin-bottom:10%;
+	color: #000000;
+}
+.code{
+	margin-top: 50px;
+	font-size:small;
+}
+.code>a{
+	color: red;
+}
+input[type ="text"]{
+	width: 70%;
+	height: 30px;
+	margin: 20px;
+}
+input[type ="password"]{
+	width: 70%;
+	height: 30px;
+	margin: 20px;
+}
+input[type ="checkbox"]{
+	margin-left: 5px;
+}
+.input{
+	display:none ;
+}
+.end{
+	border: 1px solid #FCFCDA;
+	background-color: #FCFCFC;
+	margin-top:40px ;
+	height: 30px;
+	padding-top:15px;
+}
+.end>a{
+	color: #000000;
+}

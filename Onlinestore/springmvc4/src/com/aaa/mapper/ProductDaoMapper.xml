@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aaa.dao.ProductDao">
+	<select id="search" resultType="com.aaa.vo.Product">
+		select * from product
+	</select>
+	<insert id="insertProduct" parameterType="com.aaa.vo.Product">
+		insert into product(cid,name,price,pdesc,stock,img) values(#{cid},#{name},#{price},#{pdesc},#{stock},#{img})
+	</insert>
+	
+	<delete id="deleteProduct" parameterType="int">
+	delete from product where pid=#{pid}
+	</delete>
+	
+	<update id="updateProduct" parameterType="com.aaa.vo.Product">
+	update product set cid=#{cid},name=#{name},price=#{price},pdesc=#{pdesc},stock=#{stock},img=#{img} where pid=#{pid}
+	</update>
+	
+	<select id="searchProduct" parameterType="int" resultType="com.aaa.vo.Product">
+		select * from product where pid=#{pid}
+	</select>
+	
+	<select id="selectById" parameterType="Integer" resultType="com.aaa.vo.Product">
+		select * from product where pid = #{pid}
+	</select>
+</mapper>
